@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zb.demo.mapper.PositionMapper">
+    <resultMap id="BaseResultMap" type="com.zb.base.entity.PositionEntity">
+        <id column="p_id" jdbcType="INTEGER" property="pId" />
+        <result column="p_url" jdbcType="VARCHAR" property="pUrl" />
+        <result column="p_name" jdbcType="VARCHAR" property="pName" />
+        <result column="p_maxware" jdbcType="DOUBLE" property="pMaxware" />
+        <result column="p_minware" jdbcType="DOUBLE" property="pMinware" />
+        <result column="p_ismonth" jdbcType="BIT" property="pIsmonth" />
+        <result column="p_cdate" jdbcType="DATE" property="pCdate" />
+        <result column="p_edu" jdbcType="INTEGER" property="pEdu" />
+        <result column="p_needNum" jdbcType="INTEGER" property="pNeednum" />
+        <result column="p_exp" jdbcType="INTEGER" property="pExp" />
+        <result column="p_cid" jdbcType="INTEGER" property="pCid" />
+        <result column="p_from" jdbcType="INTEGER" property="pFrom" />
+        <result column="p_isstu" jdbcType="BIT" property="pIsstu" />
+        <result column="p_info" jdbcType="VARCHAR" property="pInfo" />
+    </resultMap>
+    <sql id="Base_Column_List">
+    p_id, p_url, p_name, p_maxware, p_minware, p_ismonth, p_cdate, p_edu, p_needNum,
+    p_exp, p_cid, p_from, p_isstu, p_info
+  </sql>
+    <select id="listSelect"  resultType="com.zb.base.entity.PositionEntity">
+        select <include refid="Base_Column_List" /> from position limit #{start,jdbcType=INTEGER},#{end,jdbcType=INTEGER}
+    </select>
+</mapper>

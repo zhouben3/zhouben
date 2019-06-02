@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zb.base.mapper.PositionEntityMapper">
+  <resultMap id="BaseResultMap" type="com.zb.base.entity.PositionEntity">
+    <id column="p_id" jdbcType="INTEGER" property="pId" />
+    <result column="p_url" jdbcType="VARCHAR" property="pUrl" />
+    <result column="p_name" jdbcType="VARCHAR" property="pName" />
+    <result column="p_maxware" jdbcType="DOUBLE" property="pMaxware" />
+    <result column="p_minware" jdbcType="DOUBLE" property="pMinware" />
+    <result column="p_ismonth" jdbcType="BIT" property="pIsmonth" />
+    <result column="p_cdate" jdbcType="DATE" property="pCdate" />
+    <result column="p_edu" jdbcType="INTEGER" property="pEdu" />
+    <result column="p_needNum" jdbcType="INTEGER" property="pNeednum" />
+    <result column="p_exp" jdbcType="INTEGER" property="pExp" />
+    <result column="p_cid" jdbcType="INTEGER" property="pCid" />
+    <result column="p_from" jdbcType="INTEGER" property="pFrom" />
+    <result column="p_isstu" jdbcType="BIT" property="pIsstu" />
+    <result column="p_info" jdbcType="VARCHAR" property="pInfo" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    p_id, p_url, p_name, p_maxware, p_minware, p_ismonth, p_cdate, p_edu, p_needNum, 
+    p_exp, p_cid, p_from, p_isstu, p_info
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from position
+    where p_id = #{pId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from position
+    where p_id = #{pId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.zb.base.entity.PositionEntity">
+    insert into position (p_id, p_url, p_name, 
+      p_maxware, p_minware, p_ismonth, 
+      p_cdate, p_edu, p_needNum, 
+      p_exp, p_cid, p_from, 
+      p_isstu, p_info)
+    values (#{pId,jdbcType=INTEGER}, #{pUrl,jdbcType=VARCHAR}, #{pName,jdbcType=VARCHAR}, 
+      #{pMaxware,jdbcType=DOUBLE}, #{pMinware,jdbcType=DOUBLE}, #{pIsmonth,jdbcType=BIT}, 
+      #{pCdate,jdbcType=DATE}, #{pEdu,jdbcType=INTEGER}, #{pNeednum,jdbcType=INTEGER}, 
+      #{pExp,jdbcType=INTEGER}, #{pCid,jdbcType=INTEGER}, #{pFrom,jdbcType=INTEGER}, 
+      #{pIsstu,jdbcType=BIT}, #{pInfo,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.zb.base.entity.PositionEntity">
+    insert into position
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="pId != null">
+        p_id,
+      </if>
+      <if test="pUrl != null">
+        p_url,
+      </if>
+      <if test="pName != null">
+        p_name,
+      </if>
+      <if test="pMaxware != null">
+        p_maxware,
+      </if>
+      <if test="pMinware != null">
+        p_minware,
+      </if>
+      <if test="pIsmonth != null">
+        p_ismonth,
+      </if>
+      <if test="pCdate != null">
+        p_cdate,
+      </if>
+      <if test="pEdu != null">
+        p_edu,
+      </if>
+      <if test="pNeednum != null">
+        p_needNum,
+      </if>
+      <if test="pExp != null">
+        p_exp,
+      </if>
+      <if test="pCid != null">
+        p_cid,
+      </if>
+      <if test="pFrom != null">
+        p_from,
+      </if>
+      <if test="pIsstu != null">
+        p_isstu,
+      </if>
+      <if test="pInfo != null">
+        p_info,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="pId != null">
+        #{pId,jdbcType=INTEGER},
+      </if>
+      <if test="pUrl != null">
+        #{pUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="pName != null">
+        #{pName,jdbcType=VARCHAR},
+      </if>
+      <if test="pMaxware != null">
+        #{pMaxware,jdbcType=DOUBLE},
+      </if>
+      <if test="pMinware != null">
+        #{pMinware,jdbcType=DOUBLE},
+      </if>
+      <if test="pIsmonth != null">
+        #{pIsmonth,jdbcType=BIT},
+      </if>
+      <if test="pCdate != null">
+        #{pCdate,jdbcType=DATE},
+      </if>
+      <if test="pEdu != null">
+        #{pEdu,jdbcType=INTEGER},
+      </if>
+      <if test="pNeednum != null">
+        #{pNeednum,jdbcType=INTEGER},
+      </if>
+      <if test="pExp != null">
+        #{pExp,jdbcType=INTEGER},
+      </if>
+      <if test="pCid != null">
+        #{pCid,jdbcType=INTEGER},
+      </if>
+      <if test="pFrom != null">
+        #{pFrom,jdbcType=INTEGER},
+      </if>
+      <if test="pIsstu != null">
+        #{pIsstu,jdbcType=BIT},
+      </if>
+      <if test="pInfo != null">
+        #{pInfo,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.zb.base.entity.PositionEntity">
+    update position
+    <set>
+      <if test="pUrl != null">
+        p_url = #{pUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="pName != null">
+        p_name = #{pName,jdbcType=VARCHAR},
+      </if>
+      <if test="pMaxware != null">
+        p_maxware = #{pMaxware,jdbcType=DOUBLE},
+      </if>
+      <if test="pMinware != null">
+        p_minware = #{pMinware,jdbcType=DOUBLE},
+      </if>
+      <if test="pIsmonth != null">
+        p_ismonth = #{pIsmonth,jdbcType=BIT},
+      </if>
+      <if test="pCdate != null">
+        p_cdate = #{pCdate,jdbcType=DATE},
+      </if>
+      <if test="pEdu != null">
+        p_edu = #{pEdu,jdbcType=INTEGER},
+      </if>
+      <if test="pNeednum != null">
+        p_needNum = #{pNeednum,jdbcType=INTEGER},
+      </if>
+      <if test="pExp != null">
+        p_exp = #{pExp,jdbcType=INTEGER},
+      </if>
+      <if test="pCid != null">
+        p_cid = #{pCid,jdbcType=INTEGER},
+      </if>
+      <if test="pFrom != null">
+        p_from = #{pFrom,jdbcType=INTEGER},
+      </if>
+      <if test="pIsstu != null">
+        p_isstu = #{pIsstu,jdbcType=BIT},
+      </if>
+      <if test="pInfo != null">
+        p_info = #{pInfo,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where p_id = #{pId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.zb.base.entity.PositionEntity">
+    update position
+    set p_url = #{pUrl,jdbcType=VARCHAR},
+      p_name = #{pName,jdbcType=VARCHAR},
+      p_maxware = #{pMaxware,jdbcType=DOUBLE},
+      p_minware = #{pMinware,jdbcType=DOUBLE},
+      p_ismonth = #{pIsmonth,jdbcType=BIT},
+      p_cdate = #{pCdate,jdbcType=DATE},
+      p_edu = #{pEdu,jdbcType=INTEGER},
+      p_needNum = #{pNeednum,jdbcType=INTEGER},
+      p_exp = #{pExp,jdbcType=INTEGER},
+      p_cid = #{pCid,jdbcType=INTEGER},
+      p_from = #{pFrom,jdbcType=INTEGER},
+      p_isstu = #{pIsstu,jdbcType=BIT},
+      p_info = #{pInfo,jdbcType=VARCHAR}
+    where p_id = #{pId,jdbcType=INTEGER}
+  </update>
+
+  <select id="selectByUrl" parameterType="java.lang.String" resultType="java.lang.Integer">
+    select p_id from position
+    where p_url = #{pUrl,jdbcType=VARCHAR}
+  </select>
+</mapper>

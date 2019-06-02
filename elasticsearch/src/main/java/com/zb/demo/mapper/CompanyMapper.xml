@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zb.demo.mapper.CompanyMapper">
+    <resultMap id="BaseResultMap" type="com.zb.base.entity.CompanyEntity">
+        <id column="c_name" jdbcType="VARCHAR" property="cName" />
+        <result column="c_id" jdbcType="INTEGER" property="cId" />
+        <result column="c_guimo" jdbcType="INTEGER" property="cGuimo" />
+        <result column="c_type" jdbcType="INTEGER" property="cType" />
+        <result column="c_hangye1" jdbcType="INTEGER" property="cHangye1" />
+        <result column="c_hangye2" jdbcType="INTEGER" property="cHangye2" />
+        <result column="c_info" jdbcType="VARCHAR" property="cInfo" />
+        <result column="c_rongzi" jdbcType="INTEGER" property="cRongzi" />
+    </resultMap>
+    <sql id="Base_Column_List">
+    c_name, c_id, c_guimo, c_type, c_hangye1, c_hangye2, c_info, c_rongzi
+  </sql>
+    <select id="listSelect"  resultType="com.zb.base.entity.CompanyEntity">
+     select <include refid="Base_Column_List" /> from company limit #{start,jdbcType=INTEGER},#{end,jdbcType=INTEGER}
+  </select>
+</mapper>

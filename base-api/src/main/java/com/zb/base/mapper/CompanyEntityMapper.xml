@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zb.base.mapper.CompanyEntityMapper">
+  <resultMap id="BaseResultMap" type="com.zb.base.entity.CompanyEntity">
+    <id column="c_id" jdbcType="INTEGER" property="cId" />
+    <result column="c_name" jdbcType="VARCHAR" property="cName" />
+    <result column="c_guimo" jdbcType="INTEGER" property="cGuimo" />
+    <result column="c_type" jdbcType="INTEGER" property="cType" />
+    <result column="c_hangye1" jdbcType="INTEGER" property="cHangye1" />
+    <result column="c_hangye2" jdbcType="INTEGER" property="cHangye2" />
+    <result column="c_info" jdbcType="VARCHAR" property="cInfo" />
+    <result column="c_rongzi" jdbcType="INTEGER" property="cRongzi" />
+    <result column="c_address" jdbcType="VARCHAR" property="cAddress" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    c_id, c_name, c_guimo, c_type, c_hangye1, c_hangye2, c_info, c_rongzi, c_address
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from company
+    where c_id = #{cId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from company
+    where c_id = #{cId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="entity.CompanyEntity">
+    insert into company (c_id, c_name, c_guimo, 
+      c_type, c_hangye1, c_hangye2, 
+      c_info, c_rongzi, c_address
+      )
+    values (#{cId,jdbcType=INTEGER}, #{cName,jdbcType=VARCHAR}, #{cGuimo,jdbcType=INTEGER}, 
+      #{cType,jdbcType=INTEGER}, #{cHangye1,jdbcType=INTEGER}, #{cHangye2,jdbcType=INTEGER}, 
+      #{cInfo,jdbcType=VARCHAR}, #{cRongzi,jdbcType=INTEGER}, #{cAddress,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.zb.base.entity.CompanyEntity">
+    insert into company
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="cId != null">
+        c_id,
+      </if>
+      <if test="cName != null">
+        c_name,
+      </if>
+      <if test="cGuimo != null">
+        c_guimo,
+      </if>
+      <if test="cType != null">
+        c_type,
+      </if>
+      <if test="cHangye1 != null">
+        c_hangye1,
+      </if>
+      <if test="cHangye2 != null">
+        c_hangye2,
+      </if>
+      <if test="cInfo != null">
+        c_info,
+      </if>
+      <if test="cRongzi != null">
+        c_rongzi,
+      </if>
+      <if test="cAddress != null">
+        c_address,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="cId != null">
+        #{cId,jdbcType=INTEGER},
+      </if>
+      <if test="cName != null">
+        #{cName,jdbcType=VARCHAR},
+      </if>
+      <if test="cGuimo != null">
+        #{cGuimo,jdbcType=INTEGER},
+      </if>
+      <if test="cType != null">
+        #{cType,jdbcType=INTEGER},
+      </if>
+      <if test="cHangye1 != null">
+        #{cHangye1,jdbcType=INTEGER},
+      </if>
+      <if test="cHangye2 != null">
+        #{cHangye2,jdbcType=INTEGER},
+      </if>
+      <if test="cInfo != null">
+        #{cInfo,jdbcType=VARCHAR},
+      </if>
+      <if test="cRongzi != null">
+        #{cRongzi,jdbcType=INTEGER},
+      </if>
+      <if test="cAddress != null">
+        #{cAddress,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.zb.base.entity.CompanyEntity">
+    update company
+    <set>
+      <if test="cName != null">
+        c_name = #{cName,jdbcType=VARCHAR},
+      </if>
+      <if test="cGuimo != null">
+        c_guimo = #{cGuimo,jdbcType=INTEGER},
+      </if>
+      <if test="cType != null">
+        c_type = #{cType,jdbcType=INTEGER},
+      </if>
+      <if test="cHangye1 != null">
+        c_hangye1 = #{cHangye1,jdbcType=INTEGER},
+      </if>
+      <if test="cHangye2 != null">
+        c_hangye2 = #{cHangye2,jdbcType=INTEGER},
+      </if>
+      <if test="cInfo != null">
+        c_info = #{cInfo,jdbcType=VARCHAR},
+      </if>
+      <if test="cRongzi != null">
+        c_rongzi = #{cRongzi,jdbcType=INTEGER},
+      </if>
+      <if test="cAddress != null">
+        c_address = #{cAddress,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where c_id = #{cId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.zb.base.entity.CompanyEntity">
+    update company
+    set c_name = #{cName,jdbcType=VARCHAR},
+      c_guimo = #{cGuimo,jdbcType=INTEGER},
+      c_type = #{cType,jdbcType=INTEGER},
+      c_hangye1 = #{cHangye1,jdbcType=INTEGER},
+      c_hangye2 = #{cHangye2,jdbcType=INTEGER},
+      c_info = #{cInfo,jdbcType=VARCHAR},
+      c_rongzi = #{cRongzi,jdbcType=INTEGER},
+      c_address = #{cAddress,jdbcType=VARCHAR}
+    where c_id = #{cId,jdbcType=INTEGER}
+  </update>
+<!--  新增-->
+  <select id="selectByName" parameterType="java.lang.String" resultMap="java.lang.Integer">
+    select
+    c_id
+    from company
+    where  c_address = #{cAddress,jdbcType=VARCHAR}
+  </select>
+
+</mapper>

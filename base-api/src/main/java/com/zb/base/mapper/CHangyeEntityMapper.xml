@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zb.base.mapper.CHangyeEntityMapper">
+  <resultMap id="BaseResultMap" type="com.zb.base.entity.CHangyeEntity">
+    <id column="h_id" jdbcType="INTEGER" property="hId" />
+    <result column="h_name" jdbcType="VARCHAR" property="hName" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    h_id, h_name
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from c_hangye
+    where h_id = #{hId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from c_hangye
+    where h_id = #{hId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.zb.base.entity.CHangyeEntity">
+    insert into c_hangye (h_id, h_name)
+    values (#{hId,jdbcType=INTEGER}, #{hName,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.zb.base.entity.CHangyeEntity">
+    insert into c_hangye
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="hId != null">
+        h_id,
+      </if>
+      <if test="hName != null">
+        h_name,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="hId != null">
+        #{hId,jdbcType=INTEGER},
+      </if>
+      <if test="hName != null">
+        #{hName,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.zb.base.entity.CHangyeEntity">
+    update c_hangye
+    <set>
+      <if test="hName != null">
+        h_name = #{hName,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where h_id = #{hId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.zb.base.entity.CHangyeEntity">
+    update c_hangye
+    set h_name = #{hName,jdbcType=VARCHAR}
+    where h_id = #{hId,jdbcType=INTEGER}
+  </update>
+
+  <select id="selectByName" parameterType="java.lang.String" resultType="java.lang.Integer">
+    select
+    h_id
+    from c_hangye
+    where h_name = #{hName,jdbcType=VARCHAR}
+  </select>
+</mapper>

@@ -1,0 +1,40 @@
+2019-06-01 11:29:33.118  INFO 12748 --- [main] c.z.s.Spider9002ApplicationTests         : Starting Spider9002ApplicationTests on DESKTOP-C11ID4V with PID 12748 (started by zhouben in D:\springcloud\RaPost\spider-9002)
+2019-06-01 11:29:33.133  INFO 12748 --- [main] c.z.s.Spider9002ApplicationTests         : No active profile set, falling back to default profiles: default
+2019-06-01 11:29:35.633  INFO 12748 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-01 11:29:35.679  INFO 12748 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38ms. Found 0 repository interfaces.
+2019-06-01 11:29:36.531  INFO 12748 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$65ccf12] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-01 11:29:38.646  INFO 12748 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-01 11:29:41.471  INFO 12748 --- [main] c.z.s.Spider9002ApplicationTests         : Started Spider9002ApplicationTests in 9.266 seconds (JVM running for 11.002)
+2019-06-01 11:29:41.963  INFO 12748 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-06-01 11:29:43.992  INFO 12748 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-01 11:29:43.999  INFO 12748 --- [Thread-3] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-06-01 11:31:20.146  INFO 5032 --- [main] c.z.s.Spider9002ApplicationTests         : Starting Spider9002ApplicationTests on DESKTOP-C11ID4V with PID 5032 (started by zhouben in D:\springcloud\RaPost\spider-9002)
+2019-06-01 11:31:20.155  INFO 5032 --- [main] c.z.s.Spider9002ApplicationTests         : No active profile set, falling back to default profiles: default
+2019-06-01 11:31:22.887  INFO 5032 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-01 11:31:22.945  INFO 5032 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48ms. Found 0 repository interfaces.
+2019-06-01 11:31:24.001  INFO 5032 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$697ab093] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-01 11:31:26.024  INFO 5032 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-01 11:31:28.960  INFO 5032 --- [main] c.z.s.Spider9002ApplicationTests         : Started Spider9002ApplicationTests in 9.779 seconds (JVM running for 11.567)
+2019-06-01 11:31:29.371  INFO 5032 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-06-01 11:31:32.360  INFO 5032 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-01 11:31:32.377  INFO 5032 --- [Thread-3] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-06-01 14:48:33.747  INFO 1480 --- [main] c.z.s.Spider9002ApplicationTests         : Starting Spider9002ApplicationTests on DESKTOP-C11ID4V with PID 1480 (started by zhouben in D:\springcloud\RaPost\spider-9002)
+2019-06-01 14:48:33.749  INFO 1480 --- [main] c.z.s.Spider9002ApplicationTests         : No active profile set, falling back to default profiles: default
+2019-06-01 14:48:36.550  INFO 1480 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-01 14:48:36.665  INFO 1480 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 97ms. Found 0 repository interfaces.
+2019-06-01 14:48:37.875  INFO 1480 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4491119] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-01 14:48:40.362  INFO 1480 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-01 14:48:43.515  INFO 1480 --- [main] c.z.s.Spider9002ApplicationTests         : Started Spider9002ApplicationTests in 10.83 seconds (JVM running for 12.739)
+2019-06-01 14:48:44.189  INFO 1480 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-06-01 14:48:45.526  INFO 1480 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-01 14:48:45.529  INFO 1480 --- [Thread-3] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-06-01 14:51:57.518  INFO 9528 --- [main] c.z.s.Spider9002ApplicationTests         : Starting Spider9002ApplicationTests on DESKTOP-C11ID4V with PID 9528 (started by zhouben in D:\springcloud\RaPost\spider-9002)
+2019-06-01 14:51:57.521  INFO 9528 --- [main] c.z.s.Spider9002ApplicationTests         : No active profile set, falling back to default profiles: default
+2019-06-01 14:51:59.874  INFO 9528 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-01 14:51:59.958  INFO 9528 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 76ms. Found 0 repository interfaces.
+2019-06-01 14:52:00.869  INFO 9528 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$986549f5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-01 14:52:02.948  INFO 9528 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-01 14:52:05.964  INFO 9528 --- [main] c.z.s.Spider9002ApplicationTests         : Started Spider9002ApplicationTests in 9.415 seconds (JVM running for 11.247)
+2019-06-01 14:52:06.427  INFO 9528 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-06-01 14:52:09.110  INFO 9528 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-01 14:52:09.120  INFO 9528 --- [Thread-3] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed

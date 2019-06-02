@@ -1,0 +1,1357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0d60ead8-6f84-4091-b95c-183ca64651fe" name="Default Changelist" comment="初始项目，编码不规范，还有东西要改进">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/spider_9002_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RaPost.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/EntityApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/baseentity/CAddressEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/baseentity/CGuimoEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/baseentity/CHangyeEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/baseentity/CRongziEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/baseentity/CTypeEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/baseentity/CUrlEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/baseentity/CompanyEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/baseentity/DBCityEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/baseentity/DBFromEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/baseentity/PAddressEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/baseentity/PEducationEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/baseentity/PExperienceEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/baseentity/PLanguageEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/baseentity/PositionEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/baseentity/UIntrouduceEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/baseentity/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/bean/MyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/bean/ResultData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/bean/ResultList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/entity/CGuimoEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/entity/CHangyeEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/entity/CRongziEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/entity/CTypeEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/entity/CUrlEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/entity/CompanyEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/entity/DBCityEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/entity/DBFromEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/entity/PAddressEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/entity/PEducationEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/entity/PExperienceEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/entity/PLanguageEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/entity/PositionEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/entity/UIntrouduceEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/entity/UMessageEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/entity/UrlEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/entity/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/mapper/CGuimoEntityMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/mapper/CGuimoEntityMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/mapper/CHangyeEntityMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/mapper/CHangyeEntityMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/mapper/CRongziEntityMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/mapper/CRongziEntityMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/mapper/CTypeEntityMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/mapper/CTypeEntityMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/mapper/CUrlEntityMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/mapper/CUrlEntityMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/mapper/CompanyEntityMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/mapper/CompanyEntityMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/mapper/DBCityEntityMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/mapper/DBCityEntityMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/mapper/DBFromEntityMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/mapper/DBFromEntityMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/mapper/PAddressEntityMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/mapper/PAddressEntityMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/mapper/PEducationEntityMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/mapper/PEducationEntityMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/mapper/PExperienceEntityMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/mapper/PExperienceEntityMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/mapper/PLanguageEntityMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/mapper/PLanguageEntityMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/mapper/PositionEntityMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/mapper/PositionEntityMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/mapper/UrlEntityMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/mapper/UrlEntityMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/mapper/UserEntityMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/mapper/UserEntityMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/util/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/RaPost.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/EntityApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/baseentity/CAddressEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/baseentity/CGuimoEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/baseentity/CHangyeEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/baseentity/CRongziEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/baseentity/CTypeEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/baseentity/CUrlEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/baseentity/CompanyEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/baseentity/DBCityEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/baseentity/DBFromEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/baseentity/PAddressEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/baseentity/PEducationEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/baseentity/PExperienceEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/baseentity/PLanguageEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/baseentity/PositionEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/baseentity/UIntrouduceEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/baseentity/UserEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/bean/MyException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/bean/ResultData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/bean/ResultList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/entity/CGuimoEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/entity/CHangyeEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/entity/CRongziEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/entity/CTypeEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/entity/CUrlEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/entity/CompanyEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/entity/DBCityEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/entity/DBFromEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/entity/PAddressEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/entity/PEducationEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/entity/PExperienceEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/entity/PLanguageEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/entity/PositionEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/entity/UIntrouduceEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/entity/UMessageEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/entity/UrlEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/entity/UserEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/mapper/CGuimoEntityMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/mapper/CGuimoEntityMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/mapper/CHangyeEntityMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/mapper/CHangyeEntityMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/mapper/CRongziEntityMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/mapper/CRongziEntityMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/mapper/CTypeEntityMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/mapper/CTypeEntityMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/mapper/CUrlEntityMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/mapper/CUrlEntityMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/mapper/CompanyEntityMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/mapper/CompanyEntityMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/mapper/DBCityEntityMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/mapper/DBCityEntityMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/mapper/DBFromEntityMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/mapper/DBFromEntityMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/mapper/PAddressEntityMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/mapper/PAddressEntityMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/mapper/PEducationEntityMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/mapper/PEducationEntityMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/mapper/PExperienceEntityMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/mapper/PExperienceEntityMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/mapper/PLanguageEntityMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/mapper/PLanguageEntityMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/mapper/PositionEntityMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/mapper/PositionEntityMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/mapper/UrlEntityMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/mapper/UrlEntityMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/mapper/UserEntityMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/mapper/UserEntityMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/classes/com/zb/base/util/DateUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elasticsearch/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elasticsearch/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elasticsearch/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elasticsearch/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elasticsearch/src/main/java/com/zb/demo/ElasticsearchApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elasticsearch/src/main/java/com/zb/demo/bean/CompanyBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elasticsearch/src/main/java/com/zb/demo/elasticsearch/CompanyRespository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elasticsearch/src/main/java/com/zb/demo/elasticsearch/PositionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elasticsearch/src/main/java/com/zb/demo/mapper/CompanyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elasticsearch/src/main/java/com/zb/demo/mapper/CompanyMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elasticsearch/src/main/java/com/zb/demo/mapper/PositionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elasticsearch/src/main/java/com/zb/demo/mapper/PositionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elasticsearch/src/main/java/com/zb/demo/service/SearchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elasticsearch/src/main/java/com/zb/demo/serviceimpl/SearchServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elasticsearch/src/main/java/com/zb/demo/turnService/Insert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elasticsearch/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elasticsearch/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elasticsearch/src/test/java/com/zb/demo/ElasticsearchApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server-7001/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server-7001/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server-7001/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server-7001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server-7001/src/main/java/com/eurekaserver7001/EurekaServer7001Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server-7001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server-7001/src/test/java/com/eurekaserver7001/EurekaServer7001ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server-7002/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server-7002/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server-7002/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server-7002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server-7002/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server-7002/src/main/java/com/zb/eurekaserver7002/EurekaServer7002Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server-7002/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server-7002/src/test/java/com/zb/eurekaserver7002/EurekaServer7002ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server-7003/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server-7003/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server-7003/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server-7003/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server-7003/src/main/java/com/zb/eurekaserver7003/EurekaServer7003Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server-7003/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server-7003/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server-7003/src/test/java/com/zb/eurekaserver7003/EurekaServer7003ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-9001/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-9001/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-9001/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-9001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-9001/src/main/java/com/zb/spider9001/Spider9001Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-9001/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-9001/src/test/java/com/zb/spider9001/Spider9001ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-9002/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-9002/log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-9002/log.2019-05-31.0.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-9002/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-9002/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-9002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-9002/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-9002/src/main/java/com/zb/spider9002/Spider9002Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-9002/src/main/java/com/zb/spider9002/controller/SpiderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-9002/src/main/java/com/zb/spider9002/model/JobBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-9002/src/main/java/com/zb/spider9002/model/JobUrlBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-9002/src/main/java/com/zb/spider9002/model/Urlbean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-9002/src/main/java/com/zb/spider9002/myspider/JobCrawler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-9002/src/main/java/com/zb/spider9002/myspider/JobUrlCrawler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-9002/src/main/java/com/zb/spider9002/myspider/UrlCrawler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-9002/src/main/java/com/zb/spider9002/myspider/mySpider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-9002/src/main/java/com/zb/spider9002/pipeline/JobInfoDaoPipeline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-9002/src/main/java/com/zb/spider9002/pipeline/JobUrlDaoPipeline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-9002/src/main/java/com/zb/spider9002/pipeline/UrlPipeline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-9002/src/main/java/com/zb/spider9002/util/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-9002/src/main/java/com/zb/spider9002/util/JobRequestUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-9002/src/main/java/com/zb/spider9002/util/RequestBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-9002/src/main/java/com/zb/spider9002/util/SalaryBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-9002/src/main/java/com/zb/spider9002/util/SalaryUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-9002/src/main/java/com/zb/spider9002/webmagic/AfterExtractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-9002/src/main/java/com/zb/spider9002/webmagic/ConsolePageModelPipeline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-9002/src/main/java/com/zb/spider9002/webmagic/Extractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-9002/src/main/java/com/zb/spider9002/webmagic/FieldExtractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-9002/src/main/java/com/zb/spider9002/webmagic/HasKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-9002/src/main/java/com/zb/spider9002/webmagic/ModelPageProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-9002/src/main/java/com/zb/spider9002/webmagic/ModelPipeline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-9002/src/main/java/com/zb/spider9002/webmagic/OOSpider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-9002/src/main/java/com/zb/spider9002/webmagic/PageMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-9002/src/main/java/com/zb/spider9002/webmagic/PageModelCollectorPipeline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-9002/src/main/java/com/zb/spider9002/webmagic/PageModelExtractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-9002/src/main/java/com/zb/spider9002/webmagic/Spider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-9002/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spider-9002/src/test/java/com/zb/spider9002/Spider9002ApplicationTests.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/spider-9001/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-server-7001/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-server-7002/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-server-7003/target/" />
+    <ignored path="$PROJECT_DIR$/entity-api/target/" />
+    <ignored path="$PROJECT_DIR$/spider-9002/target/" />
+    <ignored path="$PROJECT_DIR$/test/target/" />
+    <ignored path="$PROJECT_DIR$/demo/target/" />
+    <ignored path="$PROJECT_DIR$/elasticsearch/target/" />
+    <ignored path="$PROJECT_DIR$/base-api/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spider-9002/src/main/java/com/zb/spider9002/Spider9002Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-server-7002/src/main/java/META-INF/MANIFEST.MF">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spider-9002/src/test/java/com/zb/spider9002/Spider9002ApplicationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="39">
+              <caret line="47" column="67" selection-start-line="47" selection-start-column="67" selection-end-line="47" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/base-api/src/main/java/com/zb/base/mapper/CGuimoEntityMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/base-api/src/main/java/com/zb/base/entity/PositionEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="19" column="27" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/elasticsearch/src/main/java/com/zb/demo/service/SearchService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="8" column="67" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/elasticsearch/src/main/java/com/zb/demo/serviceimpl/SearchServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.3/elasticsearch-6.4.3.jar!/org/elasticsearch/index/query/QueryBuilders.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="900">
+              <caret line="62" column="30" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.3/elasticsearch-6.4.3.jar!/org/elasticsearch/index/query/TermQueryBuilder.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>selectByPrimaryKey</find>
+      <find>System</find>
+      <find>signalNewUrl</find>
+      <find>newUrlLock</find>
+      <find>us.codecraft.webmagic.model.</find>
+      <find>entity.CGuimoEntity</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/mapper/PLanguageEntityMapper.xml" />
+        <option value="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/mapper/PositionEntityMapper.xml" />
+        <option value="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/mapper/UrlEntityMapper.xml" />
+        <option value="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/mapper/CUrlEntityMapper.xml" />
+        <option value="$PROJECT_DIR$/spider-9002/src/main/java/com/zb/spider9002/pipeline/UrlPipeline.java" />
+        <option value="$PROJECT_DIR$/elasticsearch/src/main/java/com/zb/demo/elasticsearch/PositionRepository.java" />
+        <option value="$PROJECT_DIR$/elasticsearch/src/main/java/com/zb/demo/elasticsearch/CompanyResposiyory.java" />
+        <option value="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/entity/CAddressEntity.java" />
+        <option value="$PROJECT_DIR$/elasticsearch/src/main/java/com/zb/demo/elasticsearch/CompanyRespository.java" />
+        <option value="$PROJECT_DIR$/elasticsearch/src/main/java/com/zb/demo/mapper/ComapnyMapper.xml" />
+        <option value="$PROJECT_DIR$/elasticsearch/src/main/java/com/zb/demo/ElasticsearchApplication.java" />
+        <option value="$PROJECT_DIR$/elasticsearch/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/elasticsearch/src/main/java/com/zb/demo/mapper/CompanyMapper.java" />
+        <option value="$PROJECT_DIR$/elasticsearch/src/main/java/com/zb/demo/mapper/CompanyMapper.xml" />
+        <option value="$PROJECT_DIR$/elasticsearch/src/main/java/com/zb/demo/mapper/PositionMapper.xml" />
+        <option value="$PROJECT_DIR$/elasticsearch/src/main/java/com/zb/demo/mapper/PositionMapper.java" />
+        <option value="$PROJECT_DIR$/elasticsearch/src/main/java/com/zb/demo/turnService/Insert.java" />
+        <option value="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/baseentity/CompanyEntity.java" />
+        <option value="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/entity/UMessageEntity.java" />
+        <option value="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/entity/UrlEntity.java" />
+        <option value="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/entity/UserEntity.java" />
+        <option value="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/mapper/CompanyEntityMapper.java" />
+        <option value="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/mapper/CompanyEntityMapper.xml" />
+        <option value="$PROJECT_DIR$/spider-9002/src/main/java/com/zb/spider9002/pipeline/JobInfoDaoPipeline.java" />
+        <option value="$PROJECT_DIR$/spider-9002/src/main/java/com/zb/spider9002/pipeline/JobUrlDaoPipeline.java" />
+        <option value="$PROJECT_DIR$/elasticsearch/src/test/java/com/zb/demo/ElasticsearchApplicationTests.java" />
+        <option value="$PROJECT_DIR$/entity-api/src/main/java/entity/PositionEntity.java" />
+        <option value="$PROJECT_DIR$/entity-api/src/main/java/entity/CompanyEntity.java" />
+        <option value="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/entity/CompanyEntity.java" />
+        <option value="$PROJECT_DIR$/elasticsearch/src/main/java/com/zb/demo/bean/CompanyBean.java" />
+        <option value="$PROJECT_DIR$/elasticsearch/src/main/java/com/zb/demo/service/SearchService.java" />
+        <option value="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/entity/CGuimoEntity.java" />
+        <option value="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/entity/CHangyeEntity.java" />
+        <option value="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/entity/CRongziEntity.java" />
+        <option value="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/entity/CTypeEntity.java" />
+        <option value="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/entity/CUrlEntity.java" />
+        <option value="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/entity/DBCityEntity.java" />
+        <option value="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/entity/DBFromEntity.java" />
+        <option value="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/entity/PAddressEntity.java" />
+        <option value="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/entity/PEducationEntity.java" />
+        <option value="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/entity/PExperienceEntity.java" />
+        <option value="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/entity/PLanguageEntity.java" />
+        <option value="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/entity/UIntrouduceEntity.java" />
+        <option value="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/entity/PositionEntity.java" />
+        <option value="$PROJECT_DIR$/elasticsearch/src/main/java/com/zb/demo/serviceimpl/SearchServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spider-9002fuben/src/main/java/com/zb/spider9002/mapper/CGuimoEntityMapper.java" />
+        <option value="$PROJECT_DIR$/spider-9002fuben/src/main/java/com/zb/spider9002/mapper/CHangyeEntityMapper.java" />
+        <option value="$PROJECT_DIR$/base-api/src/main/java/com/zb/base/mapper/CGuimoEntityMapper.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server-7002/src/main/java/META-INF/MANIFEST.MF" />
+        <option value="$PROJECT_DIR$/spider-9002/src/test/java/com/zb/spider9002/Spider9002ApplicationTests.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="com.zb.base" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="com.zb.base" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spider-9002" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spider-9002" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="RaPost" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RaPost" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\springcloud\RaPost\spider-9002\src\main\java\com\zb\spider9002\dao\mapperxml" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zb.base" />
+      <recent name="com.zb.base.util" />
+      <recent name="com.zb.demo.entity" />
+      <recent name="com.zb.spider9002.pipeline" />
+      <recent name="com.zb.spider9002.model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\springcloud\RaPost\base-api\src\main\java\com\zb\base\mapper" />
+      <recent name="D:\springcloud\RaPost\base-api\src\main\java\com\zb\base\entity" />
+      <recent name="D:\springcloud\RaPost\base-api\src\main\java\com\zb\base\baseentity" />
+      <recent name="D:\springcloud\RaPost\base-api\src\main\java\com\zb\base" />
+      <recent name="D:\springcloud\RaPost\entity-api\src\main\java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.ElasticsearchApplicationTests.testindex">
+    <configuration name="ElasticsearchApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="elasticsearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zb.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zb.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.zb.demo.ElasticsearchApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElasticsearchApplicationTests.testcomIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="elasticsearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zb.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zb.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.zb.demo.ElasticsearchApplicationTests" />
+      <option name="METHOD_NAME" value="testcomIndex" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElasticsearchApplicationTests.testindex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="elasticsearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zb.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zb.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.zb.demo.ElasticsearchApplicationTests" />
+      <option name="METHOD_NAME" value="testindex" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spider9002ApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spider-9002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zb.spider9002.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zb.spider9002" />
+      <option name="MAIN_CLASS_NAME" value="com.zb.spider9002.Spider9002ApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zb.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElasticsearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="elasticsearch" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zb.demo.ElasticsearchApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EntityApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="entity-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zb.entityapi.EntityApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EntityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="entityapi" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="EntityApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServer7001Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-server-7001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.eurekaserver7001.EurekaServer7001Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServer7002Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-server-7002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zb.eurekaserver7002.EurekaServer7002Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServer7003Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-server-7003" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zb.eurekaserver7003.EurekaServer7003Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spider9001Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spider-9001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zb.spider9001.Spider9001Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spider9002Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spider-9002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zb.spider9002.Spider9002Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zb.test.TestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ElasticsearchApplicationTests.testindex" />
+        <item itemvalue="JUnit.Spider9002ApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.ElasticsearchApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.ElasticsearchApplicationTests.testcomIndex" />
+        <item itemvalue="Spring Boot.EntityApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d60ead8-6f84-4091-b95c-183ca64651fe" name="Default Changelist" comment="" />
+      <created>1556451869457</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556451869457</updated>
+      <workItem from="1556451872650" duration="3297000" />
+      <workItem from="1556541245143" duration="1500000" />
+      <workItem from="1556691499050" duration="609000" />
+      <workItem from="1556863452610" duration="3328000" />
+      <workItem from="1556871575663" duration="895000" />
+      <workItem from="1556873433682" duration="8227000" />
+      <workItem from="1556936108754" duration="8168000" />
+      <workItem from="1556955555482" duration="2355000" />
+      <workItem from="1556957993727" duration="14193000" />
+      <workItem from="1557021059130" duration="7593000" />
+      <workItem from="1557056979318" duration="927000" />
+      <workItem from="1557058303143" duration="7687000" />
+      <workItem from="1557102681158" duration="4077000" />
+      <workItem from="1557118596022" duration="7965000" />
+      <workItem from="1557133459302" duration="14195000" />
+      <workItem from="1557192756136" duration="33168000" />
+      <workItem from="1557241124802" duration="735000" />
+      <workItem from="1557279566802" duration="2526000" />
+      <workItem from="1557282153833" duration="32285000" />
+      <workItem from="1557402904274" duration="598000" />
+      <workItem from="1557466940012" duration="4956000" />
+      <workItem from="1557493471991" duration="1890000" />
+      <workItem from="1557659401726" duration="8548000" />
+      <workItem from="1557728643056" duration="18920000" />
+      <workItem from="1557793948837" duration="3458000" />
+      <workItem from="1557810668109" duration="9134000" />
+      <workItem from="1557985340706" duration="831000" />
+      <workItem from="1558083551167" duration="8778000" />
+      <workItem from="1558098376166" duration="3426000" />
+      <workItem from="1558147849268" duration="9735000" />
+      <workItem from="1558266263489" duration="1004000" />
+      <workItem from="1558761376243" duration="638000" />
+      <workItem from="1558852296291" duration="3859000" />
+      <workItem from="1559285305485" duration="2755000" />
+      <workItem from="1559288121490" duration="21412000" />
+      <workItem from="1559312890734" duration="791000" />
+      <workItem from="1559355070507" duration="14707000" />
+      <workItem from="1559384543347" duration="12221000" />
+      <workItem from="1559450797518" duration="3977000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ElasticsearchApplicationTests_testindex - 2019.06.01 at 14h 39m 12s.xml">
+      <configuration name="ElasticsearchApplicationTests.testindex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ElasticsearchApplicationTests_testindex - 2019.06.01 at 14h 40m 05s.xml">
+      <configuration name="ElasticsearchApplicationTests.testindex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ElasticsearchApplicationTests_testindex - 2019.06.01 at 14h 42m 42s.xml">
+      <configuration name="ElasticsearchApplicationTests.testindex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Spider9002ApplicationTests_contextLoads - 2019.06.01 at 14h 48m 45s.xml">
+      <configuration name="Spider9002ApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ElasticsearchApplicationTests_testindex - 2019.06.01 at 14h 51m 35s.xml">
+      <configuration name="ElasticsearchApplicationTests.testindex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Spider9002ApplicationTests_contextLoads - 2019.06.01 at 14h 52m 09s.xml">
+      <configuration name="Spider9002ApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ElasticsearchApplicationTests_testindex - 2019.06.01 at 14h 55m 11s.xml">
+      <configuration name="ElasticsearchApplicationTests.testindex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ElasticsearchApplicationTests_testindex - 2019.06.01 at 15h 03m 33s.xml">
+      <configuration name="ElasticsearchApplicationTests.testindex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ElasticsearchApplicationTests_testindex - 2019.06.01 at 15h 05m 50s.xml">
+      <configuration name="ElasticsearchApplicationTests.testindex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ElasticsearchApplicationTests_testindex - 2019.06.01 at 15h 07m 52s.xml">
+      <configuration name="ElasticsearchApplicationTests.testindex" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="285368000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49203187" visible="true" weight="0.28895614" />
+      <window_info id="Structure" order="1" sideWeight="0.5079681" side_tool="true" weight="0.24727838" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.60883796" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.7180328" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Thumbnails" order="15" weight="0.3289689" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.18381241" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49601594" visible="true" weight="0.22768533" />
+      <window_info id="Structure" order="1" sideWeight="0.50398403" side_tool="true" weight="0.27216175" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35515547" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3290469" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初始项目，编码不规范，还有东西要改进" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始项目，编码不规范，还有东西要改进" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/elasticsearch/src/test/java/com/zb/demo/ElasticsearchApplicationTests.java</url>
+          <line>30</line>
+          <properties class="com.zb.demo.ElasticsearchApplicationTests" method="testindex">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/spider-9002/src/test/java/com/zb/spider9002/Spider9002ApplicationTests.java</url>
+          <line>39</line>
+          <properties class="com.zb.spider9002.Spider9002ApplicationTests" method="contextLoads">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/entity-api/src/main/java/entity/CRongziEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entity-api/src/main/java/entity/CTypeEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entity-api/src/main/java/entity/DBCityEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entity-api/src/main/java/entity/DBFromEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entity-api/src/main/java/entity/PAddressEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entity-api/src/main/java/entity/PEducationEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entity-api/src/main/java/entity/PExperienceEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entity-api/src/main/java/entity/PLanguageEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entity-api/src/main/java/entity/PositionEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="38" column="91" selection-start-line="38" selection-start-column="91" selection-end-line="38" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entity-api/src/main/java/entity/UIntrouduceEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entity-api/src/main/java/entity/UMessageEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entity-api/src/main/java/entity/UserEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entity-api/src/main/java/entity/UrlEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entity-api/src/main/java/entity/CUrlEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entity-api/src/main/java/entity/CAddressEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entity-api/src/main/java/entity/CGuimoEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entity-api/src/main/java/entity/CHangyeEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticsearch/src/main/java/com/zb/demo/bean/CompanyBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-api/src/main/java/com/zb/base/bean/ResultData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticsearch/src/main/java/com/zb/demo/turnService/Insert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-350">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-core/7.4.0/lucene-core-7.4.0.jar!/org/apache/lucene/util/QueryBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-api/src/main/java/com/zb/base/entity/CHangyeEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-api/src/main/java/com/zb/base/entity/CRongziEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-api/src/main/java/com/zb/base/entity/CTypeEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-api/src/main/java/com/zb/base/entity/CUrlEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-api/src/main/java/com/zb/base/entity/DBCityEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-api/src/main/java/com/zb/base/entity/DBFromEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-api/src/main/java/com/zb/base/entity/PAddressEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-api/src/main/java/com/zb/base/entity/CompanyEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-api/src/main/java/com/zb/base/entity/UMessageEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-api/src/main/java/com/zb/base/entity/CGuimoEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticsearch/src/main/java/com/zb/demo/elasticsearch/CompanyRespository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-api/src/main/java/com/zb/base/entity/UIntrouduceEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticsearch/src/main/java/com/zb/demo/ElasticsearchApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-api/src/main/java/com/zb/base/entity/PEducationEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-api/src/main/java/com/zb/base/entity/PExperienceEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-api/src/main/java/com/zb/base/entity/PLanguageEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-api/src/main/java/com/zb/base/entity/PositionEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticsearch/src/main/java/com/zb/demo/service/SearchService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8" column="67" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticsearch/src/main/java/com/zb/demo/serviceimpl/SearchServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.3/elasticsearch-6.4.3.jar!/org/elasticsearch/index/query/QueryBuilders.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="62" column="30" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.3/elasticsearch-6.4.3.jar!/org/elasticsearch/index/query/TermQueryBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-api/src/main/java/com/zb/base/mapper/CGuimoEntityMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-9002fuben/src/main/java/com/zb/spider9002/mapper/CHangyeEntityMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-9002fuben/src/main/java/com/zb/spider9002/mapper/CGuimoEntityMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-9002/src/main/java/com/zb/spider9002/Spider9002Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elasticsearch/.mvn/wrapper/MavenWrapperDownloader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-9002/src/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-544" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server-7002/src/main/java/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider-9002/src/test/java/com/zb/spider9002/Spider9002ApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="47" column="67" selection-start-line="47" selection-start-column="67" selection-end-line="47" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>spider-9002:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>base-api</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zb.base.mapper.UrlEntityMapper">
+  <resultMap id="BaseResultMap" type="com.zb.base.entity.UrlEntity">
+    <id column="url" jdbcType="VARCHAR" property="url" />
+  </resultMap>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+    delete from url
+    where url = #{url,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insert" parameterType="com.zb.base.entity.UrlEntity">
+    insert into url (url)
+    values (#{url,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.zb.base.entity.UrlEntity">
+    insert into url
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="url != null">
+        url,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="url != null">
+        #{url,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+
+  <select id="selectByUrl" parameterType="java.lang.String" resultType="com.zb.base.entity.UrlEntity">
+    select url from url where url = #{url,jdbcType=VARCHAR}
+  </select>
+  <select id="selectNum" resultType="java.lang.String">
+    select url from url limit #{start,jdbcType=INTEGER},#{end,jdbcType=INTEGER}
+  </select>
+</mapper>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zb.base.mapper.PExperienceEntityMapper">
+  <resultMap id="BaseResultMap" type="com.zb.base.entity.PExperienceEntity">
+    <id column="ex_id" jdbcType="INTEGER" property="exId" />
+    <result column="ex_name" jdbcType="VARCHAR" property="exName" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    ex_id, ex_name
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from p_experience
+    where ex_id = #{exId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from p_experience
+    where ex_id = #{exId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.zb.base.entity.PExperienceEntity">
+    insert into p_experience (ex_id, ex_name)
+    values (#{exId,jdbcType=INTEGER}, #{exName,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.zb.base.entity.PExperienceEntity">
+    insert into p_experience
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="exId != null">
+        ex_id,
+      </if>
+      <if test="exName != null">
+        ex_name,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="exId != null">
+        #{exId,jdbcType=INTEGER},
+      </if>
+      <if test="exName != null">
+        #{exName,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.zb.base.entity.PExperienceEntity">
+    update p_experience
+    <set>
+      <if test="exName != null">
+        ex_name = #{exName,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where ex_id = #{exId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.zb.base.entity.PExperienceEntity">
+    update p_experience
+    set ex_name = #{exName,jdbcType=VARCHAR}
+    where ex_id = #{exId,jdbcType=INTEGER}
+  </update>
+
+  <select id="selectByExpName" parameterType="java.lang.String" resultType="java.lang.Integer">
+    select ex_id from
+    from p_experience where ex_name like #{exName,jdbcType=VARCHAR}
+  </select>
+</mapper>
