@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-3.4.1.min.js"></script>
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
+</head>
+<body>
+<h3>注册页面</h3>
+<from method="post" action="login">
+    邮箱：<input type="text" name="name" id="mail"/>
+    密码：<input type="password" name="password" id="password"/>
+    验证码：<input type="text" name="keyword" id="keyword"/>
+    <button id="b01" type="button">获取验证码</button>
+    <button id="submit" type="button">注册</button>
+</from>
+<script>
+    $("#b01").click(function () {
+        var mail = $("#mail").val();
+        $.ajax({
+            url: "http://localhost:8080/sendmail",    //请求的url地址
+            dataType: "json",   //返回格式为json
+            async: true,//请求是否异步，默认为异步，这也是ajax重要特性
+            data: {
+                "mail": mail
+            },    //参数值
+            type: "POST",   //请求方式
+            beforeSend: function () {
+                //请求前的处理
+            },
+            success: function (resultdata) {
+                alert(resultdata.resultMsg)
+                //请求成功时处理
+            },
+            complete: function () {
+                //请求完成的处理
+            },
+            error: function () {
+                //请求出错处理
+            }
+        });
+    })
+    $("#submit").click(function () {
+        var mail = $("#mail").val();
+        var password = $("#password").val();
+        var keyword = $("#keyword").val();
+        $.ajax({
+            url: "http://localhost:8080/register",    //请求的url地址
+            dataType: "json",   //返回格式为json
+            async: true,//请求是否异步，默认为异步，这也是ajax重要特性
+            data: {
+                "mail": mail,
+                "password": password,
+                "n": keyword
+            },    //参数值
+            type: "POST",   //请求方式
+            beforeSend: function () {
+                //请求前的处理
+            },
+            success: function (resultdata) {
+                alert(resultdata.resultMsg)
+                window.location.href = "sucess.html";
+                //请求成功时处理
+            },
+            complete: function () {
+                //请求完成的处理
+            },
+            error: function () {
+                //请求出错处理
+            }
+        });
+    });
+</script>
+</body>
+</html>

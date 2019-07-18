@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zb.user9999.mapper.UserMapper">
+    <resultMap id="BaseResultMap" type="com.zb.base.entity.UserEntity">
+        <id column="u_id" jdbcType="INTEGER" property="uId"/>
+        <result column="u_email" jdbcType="VARCHAR" property="uEmail"/>
+        <result column="u_pass" jdbcType="VARCHAR" property="uPass"/>
+        <result column="u_ctime" jdbcType="TIMESTAMP" property="uCtime"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+    u_id, u_email, u_pass, u_ctime
+  </sql>
+    <select id="selectByMail" parameterType="java.lang.String" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from user
+        where u_email = #{mail,jdbcType=VARCHAR}
+    </select>
+
+</mapper>
